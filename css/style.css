@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Afacad:wght@400;500 & display=swap');
+
+/* 1- selector de etiqueta */
+h1{
+    color:aquamarine;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color:blanchedalmond
+}
+h1,h2,h3,h4,p,a{
+    font-family: 'Afacad', sans-serif;
+}
+/*selectores descendentes*/
+header img{
+    width: 100%;
+}
+.menu img{
+    width: 120px;
+    
+}
+.menu{
+    
+    background-color: pink;
+    background-image: url(../img/fondo-tecnologia-digital-alambre-malla-red_1017-27428.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space;
+}
+    .menu ul{
+    
+    list-style: none;
+    display: flex;
+    
+    }
+        .menu ul li{
+            display: flex;
+            margin-right: 20px;
+            
+            
+        }
+            .menu ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        
+        }
+        .menu ul li a:hover{
+            text-decoration: underline;
+            color: rgb(4, 255, 222);
+            font-size: 20px;
+            
+            }
+
+.flexbox{
+    display: flex;
+    
+}
+/* 2- selector de clase */
+#contenedor-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50%;
+    grid-template-areas: 
+    "fotoa fotob";
+    column-gap: 25px;
+    row-gap: 10px;
+    
+
+}
+.fot-a{
+    grid-area: fotoa;
+}
+.fot-b{
+    grid-area: fotob;
+}
+/* Breakpoint*/
+/* responsive */
+@media (width <= 360px){
+    #contenedor-grid{
+        width: 99%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,50%);
+        grid-template-areas: 
+        "fotoa"
+        "fotob"
+        ;
+        column-gap: 25px;
+        row-gap: 10px;
+    
+    }
+    #contenedor-grid img{
+        width: 100%;
+    }
+}
+@media (width <= 600px){
+    #contenedor-grid{
+        width: 99%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,50%);
+        grid-template-areas: 
+        "fotoa"
+        "fotob"
+        ;
+        column-gap: 25px;
+        row-gap: 10px;
+    
+    }
+    #contenedor-grid img{
+        width: 100%;
+    }
+}
+@media (width <= 360px){
+    #contenedor-grid-contacto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .mapa{
+        width: 100%;
+    }
+}
+@media (width <= 600px){
+    #contenedor-grid-contacto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .mapa{
+        width: 100%;
+    }
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-orange{
+    color:aquamarine
+}
+.text-contacto{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 30px;
+    border: solid
+}
+.bg-pattern{
+    background-image: url(../img/fondo-madera.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.text-center{
+    text-align:center;
+    
+}
+.containerpre{
+    width: 50%;
+    height: auto;
+}
+.faq h1,h2{
+    text-align: left;
+}
+.faq p{
+    color: white
+}
+.faqq{
+    color: white;
+}
+.imagen{
+    
+    height: auto;
+
+    margin-left: 50%;
+}
+/* 3- selector de ID */
+
+#id{
+    /* propiedades y valor*/
+}
+
+.containerheader{
+width: 100%;
+height: auto;
+}
+/* breakpoints */
+@media (width < 360px){
+    .flexx img{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+     } 
+     .flexx img a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+}
+/* breakpoints */
+
+
+
+.container {
+    background-color: none;
+    /* ancho */
+    width: 100%;
+    /* alto */
+    height: auto;
+    /* margen */
+    margin: 50px auto;
+    padding: 50px auto;
+    /* bordes */
+    border: solid black 2px;
+    
+
+}
+.containerr{
+    background-color: none;
+    /* ancho */
+    width: 100%;
+    /* alto */
+    height: auto;
+    /* margen */
+    margin: 50px auto;
+    padding: 50px auto;
+    /* bordes */
+    
+}
+footer div img{
+    width: 100px;
+    
+}
