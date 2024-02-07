@@ -1,0 +1,40 @@
+//nav -menu anidacion
+.menu{
+    
+    background-color: pink;
+    background-image: url(../img/fondo-tecnologia-digital-alambre-malla-red_1017-27428.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space;
+    img{
+        width: 120px;
+        fill: $white;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            
+            margin-right: 20px;
+            a{
+                text-decoration: none;
+                color: $secundarycolor;
+                font-size: $medium;
+                &:hover{
+                text-decoration: underline;
+                color: $maincolor;
+                font-size: $medium;
+            
+            }
+            }
+        }
+    }
+}
+

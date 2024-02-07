@@ -1,0 +1,38 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2? family= Afacad:wght@400;500 & display=swap');
+// vars
+$mainfont: 'Afcad', sans-serif;
+$secondfont: Verdana, sans-serif;
+//weigths
+$light:300;
+$regular:400;
+$bold:600;
+
+//colors
+    $maincolor:aquamarine;
+    $secundarycolor:rgb(10, 10, 10);
+    $white:rgb(250, 247, 247);
+
+//sizies
+$small:0.8em;
+$medium:1em;
+$large:1.6em;
+$xl:2em;
+$xxl:3em;
+//todo lo general
+*{
+    font-family: $mainfont;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: $mainfont;
+    font-weight: $bold;
+}
+p{
+    color: $secundarycolor;
+    line-height: $large;
+    font-size: $medium;
+}

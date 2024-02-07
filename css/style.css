@@ -63,7 +63,31 @@ header img{
 
 .flexbox{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     
+}
+.item{
+    text-align: center;
+    margin: 70px;
+}
+.item img{
+    display: block;
+    width: 200px; /* Ajusta el ancho según tu diseño */
+    height: auto; /* Ajusta la altura de manera proporcional */
+}
+.item a{
+        display: block;
+        text-align: center;
+        background-color: rgb(20, 220, 255);
+        color: white;
+        padding: 4px 30px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
 }
 /* 2- selector de clase */
 #contenedor-grid{
