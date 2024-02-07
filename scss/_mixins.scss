@@ -1,0 +1,14 @@
+@mixin textos($size,$line,$padding,$color){
+    font-family: $mainfont; //variable global
+    font-size: $size; //variable local
+    line-height: $line; //variable local
+    padding: $padding; //variable local
+    color: $color;
+}
+@mixin flex($dire,$justy,$aling,$wrap){
+    display: flex;
+    flex-direction: $flex;
+    justify-content: $justy;
+    aling-items:$aling;
+    flex-wrap:$wrap;
+}
